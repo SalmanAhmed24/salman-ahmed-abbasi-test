@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SingleEventComponent> testing 1`] = `
+<div
+  className="event-card"
+>
+  <p
+    className="event-h"
+  >
+    Event Details
+  </p>
+  <div
+    className="sub-info-wrap"
+  >
+    <div
+      className="sub-info"
+    >
+      <p
+        className="sub-h"
+      >
+        Country
+      </p>
+      <p
+        className="sub-p"
+      >
+        pakistan
+      </p>
+    </div>
+    <div
+      className="sub-info"
+    >
+      <p
+        className="sub-h"
+      >
+        City
+      </p>
+      <p
+        className="sub-p"
+      >
+        islamabd
+      </p>
+    </div>
+  </div>
+  <div
+    className="sub-info-wrap"
+  >
+    <div
+      className="sub-info"
+    >
+      <p
+        className="sub-h"
+      >
+        Venue
+      </p>
+      <p
+        className="sub-p"
+      >
+        name
+      </p>
+    </div>
+    <div
+      className="sub-info"
+    >
+      <p
+        className="sub-h"
+      >
+        Date
+      </p>
+      <p
+        className="sub-p"
+      >
+        mm-dd-yyyy
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+.event-card{
+    width: 30%;
+    box-shadow: 0 0 3px #00B4DB;
+    transition: 0.3s ease-in;
+    margin-right: 20px;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+        &:hover{
+            box-shadow: 0 0 5px #00B4DB;
+            text-decoration: none;
+            transform: scale(1.02);
+        }
+        .event-h{
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #d4d4d4;
+        }
+        .sub-info-wrap{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+                .sub-info{
+                    width: 49%;
+                    .sub-h{
+                        font-weight: 600;
+                        margin-bottom: 0px;
+                    }
+                }      
+        }
+}

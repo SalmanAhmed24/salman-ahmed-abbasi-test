@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Artist> Component test 1`] = `
+<div
+  className="artist-main-wrap"
+>
+  <a
+    className="card-link"
+    href="/events/salman"
+    onClick={[Function]}
+  >
+    <div
+      className="main-card"
+    >
+      <div
+        className="img-wrap"
+      >
+        <img
+          alt=""
+          className="img-card"
+          src="../../assets/logo.png"
+        />
+      </div>
+      <div
+        className="card-info-wrap"
+      >
+        <div
+          className="card-name"
+        >
+          <p>
+            salman
+          </p>
+        </div>
+        <div
+          className="social-link-wrap"
+        >
+          <p>
+            Facebook: 
+            <span>
+              https://facebook.com
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;

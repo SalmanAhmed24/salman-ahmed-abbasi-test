@@ -1,0 +1,43 @@
+.card-link-event{
+    width: 33%;
+    box-shadow: 0 0 3px #00B4DB;
+    transition: 0.3s ease-in;
+        &:hover{
+            box-shadow: 0 0 5px #00B4DB;
+            text-decoration: none;
+            transform: scale(1.02);
+        }
+}
+.back-wrap{
+    margin-top:20px;
+    transition: 0.3s linear;
+    color:#000;
+    display: inline-block;
+        &:hover{
+            text-decoration: none;
+            color:#00B4DB;
+        }
+        p{
+            font-size: 20px;
+        }
+}
+.event-count{
+    display: inline-block;
+    margin-top:20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color:#000;
+}
+.no-event{
+    display: inline-block;
+    margin-top:30px;
+    padding-bottom: 10px;
+
+}
+.event-card-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
